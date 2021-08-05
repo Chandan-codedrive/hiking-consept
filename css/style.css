@@ -1,0 +1,115 @@
+
+/* body{
+
+} */
+:root{
+    --primary-color: #87786F;
+    --second-color: #ECB67A;
+    --button-color: #F8A542;
+}
+
+.nav-menu span ~ li{
+    padding-left: 1rem;
+}
+.nav-menu li{
+    display: inline;
+}
+/* hero section */
+#hero-section{
+    background-image: url(../image/head.jpg);
+    padding: 20rem 5rem 30rem 5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#lets-go .card-body{
+    background-color: var(--primary-color);
+}
+
+#lets-go button {
+    border-radius: 2rem;
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+
+}
+
+/* #promo-section {
+    padding-top: 5rem;
+    border: 1px solid red;
+} */
+
+.promo-details-one{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 15% 20% 0% 5%;
+}
+
+.promo-details-two{
+    background-color: var(--second-color);
+    color: white;
+    padding: 15% 20% 0% 5%;
+}
+.promo-details-one button {
+    border-radius: 2rem;
+    background-color: #F6A54C;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.promo-details-two button {
+    border-radius: 2rem;
+    background-color: #F6A54C;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.promo-img{
+    object-fit: cover;
+    width: 500rem;
+    height: 50rem;
+}
+
+#hik-moun {
+    background: url(../image/hikm.jpg) no-repeat;
+    background-size: cover;
+    padding: 28%;
+}
+
+#explore-world {
+    background: url(../image/explore-world.png) no-repeat;
+    background-size: cover;
+    padding: 35% 20%;
+}
+
+#explore-world span {
+    color: var(--second-color);
+}
+
+#lorem-sec  h1 {
+    color: var(--second-color);
+}
+
+#testimonial {
+    background: url(../image/testimoniyal-bg.png) no-repeat bottom right;
+    padding: 10% 20%;
+}
+
+#subscribtion {
+    background: url(../image/titlehere.jpg) no-repeat;
+    padding: 25% 10%;
+    background-size: cover;
+}
+
+#footer-section{
+    background: url(../image/footer.jpg);
+    padding: 10% 10%;
+    color: white;
+}
+
+#footer-section li {
+    list-style: none;
+}
